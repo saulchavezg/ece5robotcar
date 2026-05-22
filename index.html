@@ -38,6 +38,19 @@
       border: 1px solid #2a2f3d;
       border-radius: 4px;
     }
+
+    .video-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  }
+
+  video {
+  border: 1px solid #2a2f3d;
+  border-radius: 4px;
+  max-width: 100%;
+  }
+    
   </style>
 </head>
 <body>
@@ -49,6 +62,13 @@
     <img src="image1.JPG" alt="Photo 1" />
     <img src="image2.JPG" alt="Photo 2" />
     <img src="image3.JPG" alt="Photo 3" />
+  </div>
+
+  <div class="video-container">
+  <video controls width="700">
+    <source src="IMG_7721-2.mp4" type="video/mp4" />
+    Video not loaded.
+  </video>
   </div>
 
 </body>
